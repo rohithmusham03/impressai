@@ -3,26 +3,6 @@
   * for server : ``npm install``
  * Run server (in main directory of project) ``npm start``
 
-## APIS
-**[GET]**   http://example.com/users
-
-**[POST]**   http://example.com/user
-```
-{
-    name:<string>,
-    email:<string>
-}
-```
-**[PUT]**   http://example.com/user/:id
-```
-{
-    name:<string>,
-    email:<string>
-}
-```
-
-**[DELETE]**   http://example.com/user/:id
-
 ## LEVELS
 
 ### Level 1 
