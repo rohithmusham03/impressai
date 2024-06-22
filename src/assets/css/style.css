@@ -14,7 +14,7 @@
 }
 
 .header-box button {
-    background-color: #1890ff;
+    background-color: #18ff4e;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -57,11 +57,11 @@ button {
 }
 
 button.edit {
-    background-color: #1890ff;
+    background-color: #2bff18;
     color: white;
 }
 
 button.delete {
-    background-color: #ff4d4f;
+    background-color: #f07c01;
     color: white;
 }
