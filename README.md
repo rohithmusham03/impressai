@@ -27,47 +27,56 @@
 
 ### Level 1 
 - Add CSS:
-	- [ ] Convert the displayed data into an HTML table.
-	- [ ] Ensure there is appropriate spacing and padding between table elements for better readability [refer screenshot].
+	- [ ] I added CSS for the button
 - Fix Existing Issues:
-	- [ ] The "Add User" button is currently not functioning. Identify the issue and fix it so that new users can be added.
-	- [ ] Ensure that both the name and email fields are not left empty and contain valid values before submission.
-	- [ ] Implement validation for the email field to ensure that only valid email addresses are accepted.
+	- [ ] In the commonInput.js file, the button does not trigger the handleSubmit function. I updated the button to call the handleSubmit function when clicked.
 
-![image](https://github.com/impressai/frontend_task/assets/28563570/27ae4e34-0ccb-488f-9215-e95842322b97)
+![Screenshot 2024-06-23 020213](https://github.com/rohithmusham03/impressai/assets/124354810/746db2dd-aaec-483b-b788-cfcbe169ed0f)
 
+- Added Error message for incorrect email:
+	- [ ] I also added an error message to show if the email address is not mentioned fully.
+
+![image](https://github.com/rohithmusham03/impressai/assets/124354810/ef619848-3f3e-4c45-9f52-e396046d1c9b)
 
 
 
 ### Level 2
-- Integrate Antd components
-	- [ ] Table: Use Ant Design's table component to display the data.
-	- [ ] Buttons: Replace existing buttons with Ant Design's button components.
-	- [ ] Inputs: Use Ant Design's input components for forms.
-- Fix Existing Issues: 
-	- [ ] Form Reset on Submission: Ensure that after submitting the form, the values in the name and email input fields are cleared.
+- Integrated Antd components
+	- [ ] Table: I Used  Ant Design's table component to display the data.
+	- [ ] Buttons: I  Replaced existing buttons with Ant Design's button components.
+	- [ ] Inputs: I Used Ant Design's input components for forms.
+- Fixed Existing Issues: 
+	- [ ] Form Reset on Submission: I Ensured that after submitting the form, the values in the name and email input fields are cleared.
 
-![image](https://github.com/impressai/frontend_task/assets/28563570/65eda298-0f5b-4923-bbcc-45f7caf1b758)
+![image](https://github.com/rohithmusham03/impressai/assets/124354810/ca60d521-444a-4c20-a88c-90d4a49f2a75)
+
 
 
 
 ### Level 3
-- Add delete functionality:
-	- [ ] Delete for Each User: Implement a delete feature for each user entry
+- Added delete functionality:
+	- [ ] Delete for Each User: I Implemented a delete feature for each user entry
 
-![image](https://github.com/impressai/frontend_task/assets/28563570/c3da4f55-6e89-47cc-bbde-35e3c20f80f6)
+![image](https://github.com/rohithmusham03/impressai/assets/124354810/c2fe502e-f237-4c85-a41e-d26c3170e5ea)
+
 
 
 
 
 ### Level 4
-- Add edit functionality:
-	- [ ] Edit for Each User: Implement a edit feature for each user entry
+- Added edit functionality:
+	- [ ] Edit for Each User: I Implemented an edit feature for each user entry
 
-![image](https://github.com/impressai/frontend_task/assets/28563570/67fd80fc-c022-41b3-8f01-de11de046379)
+![image](https://github.com/rohithmusham03/impressai/assets/124354810/f223ab66-9191-4565-864e-9336e73174fb)
+
 
 
 
 ### Bonus level
-- [ ] Maintain separate reducer - create and manage a separate reducer for storing the details of the currently edited user.
-- [ ] Add Confirmation for Deletion - implement a confirmation dialog that asks for user approval before deleting a user entry.
+- [ ] Maintained separate reducer - I created and managed a separate reducer for storing the details of the currently edited user.
+- [ ] Added Confirmation for Deletion - I implemented a confirmation dialog that asks for user approval before deleting a user entry.
+
+![image](https://github.com/rohithmusham03/impressai/assets/124354810/40a45148-3d97-43de-9361-07f447fb8fa8)
+
+
+
