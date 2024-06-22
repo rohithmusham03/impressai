@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Input, Button } from "antd";
 
 const InputHandler = ({ onSubmit, editMode = false, initialData = {} }) => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
+  const [name, setName] = useState(initialData.name || "");
+  const [email, setEmail] = useState(initialData.email || "");
   const [error, setError] = useState("");
 
   useEffect(() => {
@@ -28,6 +28,8 @@ const InputHandler = ({ onSubmit, editMode = false, initialData = {} }) => {
     }
     setError("");
     onSubmit({ name, email });
+    setName("");  // Clear the input fields after submission
+    setEmail("");  // Clear the input fields after submission
   };
 
   return (

@@ -51,7 +51,7 @@ function MainComponent(props) {
   return (
     <div id="main-container-wrapper" style={{ textAlign: 'center', marginTop: '20px' }}>
       <h1>Impress.ai Assignment</h1>
-      <InputHandler onSubmit={handleSubmit} />
+      <InputHandler onSubmit={handleSubmit} editMode={!!editedUser} initialData={{ name, email }} />
       <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}>
         <SimpleTable dataSource={userState.users} onEdit={handleEdit} onDelete={handleDelete} />
       </div>
